@@ -14,10 +14,14 @@ please go to
 [github.com/datalad-datasets/human-conntectome-project-openaccess](https://github.com/datalad-datasets/human-connectome-project-openaccess).
 
 This subset comprises the structural T1w images in MNI space of each subject in the
-HCP Open Access dataset. Specifically, these files are
+HCP Open Access dataset, and the MNINonLinear/xfms/ directory.
+Specifically, these files are
 
 ```
 - <sub>/MNINonLinear/T1w_restore.nii.gz
+- <sub>/MNINonLinear/xfms/acpc_dc2standard.nii.gz
+- <sub>/MNINonLinear/xfms/NonlinearRegJacobians.nii.gz
+- <sub>/MNINonLinear/xfms/standard2acpc_dc.nii.gz
 ```
 
 The directory structure and the file names in this subset are kept identical to
